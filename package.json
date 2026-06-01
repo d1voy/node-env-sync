@@ -1,0 +1,36 @@
+{
+  "name": "node-env-sync",
+  "version": "1.4.2",
+  "description": "Synchronize environment variables across Node.js projects, dev containers, and CI/CD pipelines",
+  "main": "index.js",
+  "bin": {
+    "node-env-sync": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "keywords": [
+    "env",
+    "dotenv",
+    "cross-env",
+    "devcontainer",
+    "ci",
+    "sync",
+    "environment"
+  ],
+  "author": "d1voy",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d1voy/node-env-sync.git"
+  }
+}
