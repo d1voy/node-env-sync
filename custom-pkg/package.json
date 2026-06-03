@@ -1,0 +1,11 @@
+{
+  "name": "secure-monitor",
+  "version": "1.0.0",
+  "description": "A monitoring package installed after firewall removal",
+  "main": "index.js",
+  "bin": {
+    "secure-monitor": "index.js"
+  },
+  "author": "Demo",
+  "license": "MIT"
+}
